@@ -20,19 +20,20 @@ public class JavaFox {
 		} else if (score < 30) {
 			System.out.println("奖励30大板");
 		}
-
 		switch (score) {
 		case 100:
 			System.out.println("一辆车");
 			break;
 		case 60:
 			System.out.println("不讲理");
+			
 			break;
 		default:
 			System.out.println("打一顿");
 			break;
+		
 		}
-
+      
 	}
 
 }
